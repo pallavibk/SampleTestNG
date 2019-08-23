@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+  <test thread-count="5" name="RegressionTest">
+    <classes>
+      <class name="MultipleXmlPack.Regression"/>
+    </classes>
+  </test> <!-- RegressionTest -->
+
+  <test thread-count="5" name="SmokeTest">
+    <classes>
+      <class name="MultipleXmlPack.smoke2"/>
+      <class name="MultipleXmlPack.smoke"/>
+    </classes>
+  </test> <!-- SmokeTest -->
+</suite> <!-- SmkeSuite -->

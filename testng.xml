@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNg Suite"  parallel="none">
+	<!-- <test name="tools qa">
+		<classes>
+			<class name="pack1.TestNGAnnotations" />
+			<class name="pack1.TestNGAnnotations2" />
+		</classes>
+	</test>
+
+
+
+	<test name="smoke">
+	<classes>
+			
+			<class name="pack1.TestNGAnnotations3" />
+		</classes>
+	</test> -->
+	 
+   <!-- <test name="Practice Grouping">
+ <groups>
+    <run>
+ <include name="car"/>
+ <include name="scotter"/>
+ <exclude name="cycle"/>
+ </run>
+   </groups>
+  <classes>
+        <class name="pack1.GroupsExample2" />
+       <class name="pack1.GroupsExample" />
+</classes>
+ </test> -->
+ 
+  <!-- ParametetsAnnotationExample example -->
+ <!--  <test name="ToolsQA">
+
+ <parameter name="sUsername" value="batman"/>
+ 
+ <parameter name="sPassword" value="batman"/>
+ 
+ <classes>
+ 
+     <class name="pack1.ParametetsAnnotationExample" />
+ 
+ </classes>
+ 
+    </test> -->
+    
+    
+   <!--  MultiBrowserTesting --> 
+<!--    <test name="chrome">
+ 
+ <parameter name="browser" value="chrome" />
+ 
+ <classes>
+ 
+ <class name="pack1.MultiBrowserTesting" />
+ 
+ </classes>
+ 
+ </test>
+   
+   <test name="FirefoxTest">
+ 
+ <parameter name="browser" value="firefox" />
+ 
+ <classes>
+ 
+ <class name="pack1.MultiBrowserTesting" />
+ 
+ </classes>
+ 
+ </test>  -->
+ 
+ <!-- RetryLogic example -->
+ <listeners>
+ <listener class-name="Analyzer.MyTransformer"/>
+ </listeners>
+ <test name="retry">
+ 
+ <classes>
+ 
+ <class name="pack1.RetryLogic" />
+ 
+ </classes>
+ 
+ </test>
+ 
+ 
+  
+</suite>
+ 
